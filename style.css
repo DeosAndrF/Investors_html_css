@@ -1,0 +1,107 @@
+html{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+.s-logo {
+    color: #ff0000;
+    text-shadow: 2px 2px 4px rgba(128, 0, 128, 0.7);
+  } 
+nav{
+    display: flex;
+    justify-content: center;
+    padding-right: 13%;
+  }
+nav h2 {
+    padding-left: 10rem;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    text-decoration: underline;
+    cursor: pointer;
+  } 
+ nav a{
+    color: black;
+ }
+ .main-content{
+ }
+
+ #mission{
+  display: block;
+  height: 500px;
+  width: 1500px;
+  background-image: url(./pictures/Mission.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  padding: 40px none;
+ }
+
+ #promo{
+    display: inline-block;
+    background-color: white;
+    margin-top: 200px;
+    width: 100%;
+    text-align: center;
+}
+.content_center h2, .head h2, #team h2, .contact h2{
+    color:black;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+.content_center p,.head p{
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.images img{
+    height: 200px;
+    width: 300px;
+}
+.head{
+    display: block;
+    text-align: center;
+}
+figcaption{
+    text-align: center;
+}
+#team{
+    display: block;
+    unicode-bidi: isolate;
+}
+.team{
+    background-image: url(https://content.codecademy.com/PRO/independent-practice-projects/flexbox-business-site/img/blurred-road.jpg);
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.teammate {
+    padding: 10px;
+    color: white;
+    flex-basis: 280px;
+    text-align: center;
+    font-size: 1rem;
+}
+.teammate img{
+    height: 400px;
+    width: 400px;
+}
+.contact{
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+.copyright{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
